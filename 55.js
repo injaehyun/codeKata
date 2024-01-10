@@ -22,10 +22,10 @@
                 // 카드팩A에 골의 데이터가 없다면 카드팩B로 넘어와서 위와 동일하게 조건문을 통해서 인덱스를 증가시킨다. 
             } else {
                 return "No"
-        }
+        }// 위에 모두 해당하지 않으면 no를 반환한다.
         
     }
-    return "Yes"
+    return "Yes" //no를 반환하지 않고 종료되면 yes를 반환한다
 }
     // 예제 호출
     const result = solution(["i", "drink", "water"], ["want", "to"], ["i", "want", "to", "drink", "water"]);
